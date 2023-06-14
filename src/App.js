@@ -1,9 +1,8 @@
-import Data from "./Components/Data";
+import DrawingApp from "./Drawing";
 function App() {
   return (
     <div className="App">
-      <h1 className="text-center">Fetching Data</h1>
-      <Data />
+      <DrawingApp />
     </div>
   );
 }
